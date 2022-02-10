@@ -1,0 +1,209 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+/*хедер*/
+/*logo*/
+[href="mailto:WebStudio"] {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-color {
+  color: #000000;
+}
+/*link*/
+.link-nav {
+  list-style: none;
+}
+.link-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.link-item:hover,
+.link-item:focus {
+  color: #2196f3;
+}
+
+.contacts {
+  list-style: none;
+}
+.contacts-link {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+
+/*main*/
+.slogan {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2f303a;
+}
+.modal-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/*секция особенности*/
+.feature-name {
+  visibility: hidden;
+}
+.feature {
+  list-style: none;
+}
+.feature-caption {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.feature-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*секция чем мы занимаемся*/
+.skills {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.skills-item {
+  list-style: none;
+}
+
+/*секция наша команда*/
+.teams-subject {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.teams-our {
+  list-style: none;
+}
+.teams-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-competence {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*футер*/
+.footer-address {
+  list-style: none;
+}
+.footer-contacts {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-maps {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.addres-link {
+  background-color: #2f303a;
+}
+.logo-color-white {
+  color: #ffffff;
+}
+
+/*porfolio mein*/
+.portfolio-name {
+  visibility: hidden;
+}
+.filters {
+  list-style: none;
+}
+.button-filters {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.button-filters:hover,
+.button-filters:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.gallery {
+  list-style: none;
+  text-decoration: none;
+}
+.gallery-our {
+  text-decoration: none;
+}
+.gallery-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.gallery-type {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.conteiner {
+}
