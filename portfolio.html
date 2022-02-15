@@ -53,9 +53,8 @@
     </header>
     <main>
       <!--Портфолио-->
-      <section class="portfolio">
-        <div class="conteiner">
-          <h1 class="portfolio-name">Портфолио</h1>
+      <section class="portfolio section">
+        <div class="conteiner portfolio">
           <ul class="filters">
             <li><button class="button-filters" type="button">Все</button></li>
             <li>
@@ -72,9 +71,10 @@
             </li>
           </ul>
           <ul class="gallery">
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/1img.jpg"
                   alt="Наши люди"
                   width="370"
@@ -84,9 +84,10 @@
                 <p class="gallery-type">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/2img.jpg"
                   alt="Новый Орлеан против Золотой звезды"
                   width="370"
@@ -98,9 +99,10 @@
                 <p class="gallery-type">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/3img.jpg"
                   alt="Лого ресторана"
                   width="370"
@@ -112,9 +114,10 @@
                 <p class="gallery-type">Приложение</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/4img.jpg"
                   alt="Наушники"
                   width="370"
@@ -126,9 +129,10 @@
                 <p class="gallery-type">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/5img.jpg"
                   alt="Упаковочные коробки"
                   width="370"
@@ -140,9 +144,10 @@
                 <p class="gallery-type">Приложение</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/6img.jpg"
                   alt="Начальная страница веб-сайта"
                   width="370"
@@ -154,9 +159,10 @@
                 <p class="gallery-type">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/7img.jpg"
                   alt="Постер журнала"
                   width="370"
@@ -168,9 +174,10 @@
                 <p class="gallery-type">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/8img.jpg"
                   alt="Логотип проекта"
                   width="370"
@@ -180,9 +187,10 @@
                 <p class="gallery-type">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="gallery-cards">
               <a class="gallery-our" href="">
                 <img
+                  class="gallery-img"
                   src="./images/9img.jpg"
                   alt="Растущий бизнес"
                   width="370"
@@ -198,22 +206,28 @@
     </main>
 
     <footer class="addres-link">
-      <div class="conteiner">
-        <a href="mailto:WebStudio">
-          Web<span class="logo-color-white">Studio</span></a
-        >
+      <div class="conteiner footer">
+        <div class="logo-footer">
+          <a href="mailto:WebStudio">
+            Web<span class="logo-color-white">Studio</span></a
+          >
+        </div>
         <address>
           <ul class="footer-address">
-            <li>
+            <li class="footer">
               <a
-                class="footer-contacts-maps"
+                class="footer-contacts maps"
                 href="https://goo.gl/maps/PpD1iRHGHE4Q8SyU6"
                 target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li><a class="footer-contacts" href="">info@example.com</a></li>
-            <li><a class="footer-contacts" href="">+38 099 111 11 11</a></li>
+            <li class="footer">
+              <a class="footer-contacts" href="">info@example.com</a>
+            </li>
+            <li class="footer">
+              <a class="footer-contacts" href="">+38 099 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
