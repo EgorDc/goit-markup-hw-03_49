@@ -1,8 +1,47 @@
-body {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+:root {
+  --primaru-font-family: Roboto, sans-serif;
 }
+
+body {
+  font-family: var(--primaru-font-family);
+  font-style: normal;
+  color: #212121;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*хедер*/
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
 /*logo*/
 [href="mailto:WebStudio"] {
   font-family: Raleway;
@@ -15,9 +54,15 @@ body {
 .logo-color {
   color: #000000;
 }
+.logo {
+  margin-right: 92px;
+}
+
 /*link*/
 .link-nav {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 .link-item {
   font-weight: 500;
@@ -31,9 +76,15 @@ body {
 .link-item:focus {
   color: #2196f3;
 }
+.link-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .contacts {
   list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 .contacts-link {
   text-decoration: none;
@@ -47,6 +98,9 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #2196f3;
+}
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /*main*/
@@ -67,6 +121,10 @@ body {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
+  border: 1px;
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 5px 16px;
 }
 
 /*секция особенности*/
@@ -82,7 +140,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 .feature-text {
   font-weight: normal;
@@ -98,7 +155,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .skills-item {
@@ -106,12 +162,16 @@ body {
 }
 
 /*секция наша команда*/
+.teams-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
 .teams-subject {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .teams-our {
   list-style: none;
@@ -121,7 +181,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .team-competence {
   font-weight: normal;
@@ -176,12 +235,18 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 4px;
 }
 .button-filters:hover,
 .button-filters:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
+
+min-width: 200px;
+padding: 5px 16px;
 
 .gallery {
   list-style: none;
@@ -204,6 +269,4 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.conteiner {
 }
