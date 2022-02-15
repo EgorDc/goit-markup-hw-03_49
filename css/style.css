@@ -186,6 +186,7 @@ nav {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .feature-text {
   font-weight: normal;
@@ -320,14 +321,13 @@ nav {
   border: 1px;
   border-radius: 4px;
   margin-bottom: 50px;
-}
-
-.button-filters {
   margin-right: 4px;
 }
-.button-filters:last-child {
+
+.button-filters:not(:last-child) {
   margin-right: 0px;
 }
+
 .button-filters:hover,
 .button-filters:focus {
   color: #ffffff;
