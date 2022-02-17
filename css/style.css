@@ -20,7 +20,6 @@ ul {
 img {
   display: block;
 }
-
 .conteiner {
   width: 1200px;
   margin-left: auto;
@@ -28,12 +27,10 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .title {
   font-weight: bold;
   font-size: 36px;
@@ -43,6 +40,16 @@ img {
   margin-bottom: 50px;
 }
 
+.title.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 /*хедер*/
 .header-conteiner {
   display: flex;
@@ -96,7 +103,6 @@ nav {
 .link-nav-item:not(:last-child) {
   margin-right: 50px;
 }
-
 .contacts {
   list-style: none;
   display: flex;
@@ -121,13 +127,14 @@ nav {
 }
 
 /*main*/
-.conteiner.hero {
+.section.hero {
   padding-top: 210px;
   padding-bottom: 190px;
   background-color: #2f303a;
+}
+.conteiner.hero {
   display: block;
   text-align: center;
-  margin-bottom: 104px;
 }
 
 .slogan {
@@ -159,9 +166,11 @@ nav {
 }
 
 /*секция особенности*/
-.feature-our {
-  margin-bottom: 94px;
+
+.section.feature {
+  padding-top: 104px;
 }
+
 .conteiner.feature {
   display: flex;
 }
@@ -197,9 +206,8 @@ nav {
 }
 
 /*секция чем мы занимаемся*/
-
-.conteiner.skills {
-  margin-bottom: 102px;
+.section.skills {
+  padding-bottom: 104px;
 }
 
 .skills.title {
@@ -234,12 +242,16 @@ nav {
   margin-right: 30px;
 }
 
+.teams-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 .teams-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
   margin-bottom: 10px;
 }
 .team-competence {
@@ -247,18 +259,15 @@ nav {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
   color: #757575;
-  margin-bottom: 30px;
-}
-.img {
-  margin-bottom: 30px;
 }
 
 /*футер*/
-.conteiner.footer {
+.addres-link {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.conteiner.footer {
   display: block;
 }
 
@@ -302,6 +311,7 @@ nav {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .conteiner.portfolio {
@@ -320,12 +330,11 @@ nav {
   cursor: pointer;
   border: 1px;
   border-radius: 4px;
-  margin-bottom: 50px;
-  margin-right: 4px;
+  padding: 6px 22px;
 }
 
-.button-filters:not(:last-child) {
-  margin-right: 0px;
+.button-item:not(:last-child) {
+  margin-right: 4px;
 }
 
 .button-filters:hover,
@@ -343,27 +352,20 @@ nav {
   margin-top: -30px;
 }
 
-.gallery-img {
-  margin-bottom: 20px;
-}
-
 .gallery-cards {
   margin-left: 30px;
   margin-top: 30px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
 }
 .gallery-our {
   text-decoration: none;
 }
+
 .gallery-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-left: 24px;
   padding-bottom: 4px;
 }
 .gallery-type {
@@ -373,6 +375,19 @@ nav {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-left: 24px;
-  padding-bottom: 20px;
+}
+
+.gallery-text {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  padding: 20px 24px;
 }
